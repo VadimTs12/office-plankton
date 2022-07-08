@@ -698,13 +698,6 @@ body {
   line-height: 1.4;
 }
 
-.section-more-OQ .section__container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-}
-
 .section-more-OP .section-more__image picture {
   width: 48%;
   margin-bottom: 4%;
@@ -717,7 +710,8 @@ body {
       align-self: start;
 }
 
-.section-more-OQ .section-more__image .section__image {
+.section-more-OQ .section-more__image .section__image,
+.section-more-OS .section-more__image .section__image {
   width: 100%;
 }
 
@@ -2171,6 +2165,13 @@ button.swiper-pagination-bullet {
 
   .section-more {
     padding-top: 20px;
+  }
+
+  .section-more-OQ .section__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 
   .section-news__content {
